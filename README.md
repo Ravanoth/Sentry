@@ -1,7 +1,6 @@
 # Spectre [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Phantom-Proxies/spectrev1/blob/main/LICENSE)
  The source code and deployment for spectre proxy by NullBit9.
  Currently uses Ultraviolet proxy and Ultraviolet backend scripts for a seamless experience.
- solsearch and spectre (.html) are both different versions of the proxy.
  (please don't be stupid and don't deploy this via npm on a WSL instance)
  
  ## License
