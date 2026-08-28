@@ -1,5 +1,5 @@
-# Spectre [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Phantom-Proxies/spectrev1/blob/main/LICENSE)
- The source code and deployment for spectre proxy by NullBit9.
+# Sentry [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ravanoth/sentry/blob/main/LICENSE)
+ The source code and deployment for sentry proxy by Ravanoth.
  Currently uses Ultraviolet proxy and Ultraviolet backend scripts for a seamless experience.
  (please don't be stupid and don't deploy this via npm on a WSL instance)
  
