@@ -12,8 +12,8 @@
  WILL NOT WORK ON WSL!!
  
  ```sh
- git clone https://github.com/NullBit9/Spectre
- cd Spectre
+ git clone https://github.com/Ravanoth/Sentry
+ cd Sentry
  npm i && npm start
  ```
  ## Requirements:
