@@ -22,8 +22,8 @@ const __dirname = process.cwd();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 app.use(cors());
-app.use("uv", express.static(__dirname + '/@'));
-app.use(express.static(__dirname + '/public'));
+app.use("/@", express.static(path.join(__dirname, 'public', '@')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // normal url points to html file
 app.get('/', (req, res) => {
@@ -41,7 +41,7 @@ server.on('request', (req, res) => {
 
 // bare 
 server.on("upgrade", (req, socket, head) => {
-    bare.routeRequest(req, socket, head);
+    bareServer.routeRequest(req, socket, head);
 });
 
 // running!
