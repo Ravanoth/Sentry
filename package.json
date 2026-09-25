@@ -7,7 +7,8 @@
         "node": ">=16.0.0"
     },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "build": "echo \"No build step required\""
     },
     "author": "Ravanoth",
     "license": "MIT",
